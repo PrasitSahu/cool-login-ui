@@ -1,3 +1,8 @@
+@font-face {
+  font-family: lucky;
+  src: url("./fonts/LuckiestGuy.ttf");
+}
+
 .App {
   text-align: center;
 }
