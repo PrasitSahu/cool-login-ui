@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Form from "./form";
+import Form from "./Loginform";
 
 class LoginBox extends Component {
   state = {};
   render() {
     return (
-      <div className="h-1/2 md:h-[60%] lg:h-[72%] w-3/4 lg:w-[60%] bg-[#393939] relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[12px]">
-        <div className="absolute hidden lg:block w-[40%] h-full bg-[#2A2A2A] overflow-visible">
+      <div className="h-[56%] md:h-[60%] lg:h-[72%] w-3/4 lg:w-[60%] bg-[#393939ea] relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[12px]">
+        <div className="absolute hidden lg:block w-[40%] h-full bg-[#2a2a2ab6] overflow-visible">
           <img
             src="/img/gm-girl.png"
             className="relative z-20 -left-[40px] w-full h-full object-contain overflow-visible"
@@ -17,7 +17,7 @@ class LoginBox extends Component {
           />
         </div>
         <div className="absolute h-full w-full lg:w-[60%] lg:left-[40%] bg-transparent">
-          <h3 className="font-[lucky] text-gray-200 text-3xl font-bold text-center tracking-widest mt-10">
+          <h3 className="font-[lucky] text-gray-100 text-3xl font-bold text-center tracking-widest mt-10">
             SIGNIN
           </h3>
           <Form />
